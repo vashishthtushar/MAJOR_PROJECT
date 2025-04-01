@@ -80,7 +80,7 @@ app.get(
   })
 );
 
-//UPDATE ROUTE
+//UPDATE Route
 app.put(
   "/listings/:id",
   wrapAsync(async (req, res) => {
